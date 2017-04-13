@@ -34,4 +34,14 @@ for x in range(10):
 
 print(list7)
 #6 not yet
+list11=['1.Just do it','2.一切皆有可能','3.让编程改变世界','4.Impossible is Nothing']
+list12=['4.阿迪达斯','2.李宁','3.鱼C工作室','1.耐克']
+list13=[]
+for each in list3:
+    print(each)
+
+print('-----')
+print(list11)
+print('-----')
+print(list12)
 
