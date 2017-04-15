@@ -1,0 +1,26 @@
+#0
+str1='''
+abc
+def
+ghi
+'''
+print(str1)
+str2='a\nb\nc\nd'
+print(str2)
+#2
+file1=open('E:\\workspace\\06_python\\11.txt','r')
+file2=open(r'E:\workspace\06_python\11.txt','r')
+#3
+str3='<a href="http://www.fishc.com/dvd" target="_blank">鱼C资源打包</a>'
+print(str3)
+print(str3.split('/')[2])
+#4
+print(str3[16:29])
+print(str3[16:-32])
+print(str3[-45:29])
+print(str3[-45:-32])
+#5
+print(str3[20:-36])
+#6
+str6='i2sl54ovvvb4e3bferi32s56h;$c43.sfc67o0cm99'
+print(str6[1::3])
