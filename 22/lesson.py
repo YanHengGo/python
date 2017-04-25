@@ -5,7 +5,7 @@ def factorial(n):
 
 print(factorial(5))
 
-def fatorial1(n):
+def factorial1(n):
     result=n
     for i in range(1,n):
         result *= i
