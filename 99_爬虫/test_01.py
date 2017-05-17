@@ -1,0 +1,10 @@
+import urllib.request
+import urllib.error
+import requests
+
+payload = {'key1': 'value1', 'key2': 'value2'}
+r = requests.get("http://httpbin.org/get", params=payload)
+print(type(r))
+print(r.code())
+
+
